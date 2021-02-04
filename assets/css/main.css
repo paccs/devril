@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+
 body {
   margin: 0;
   padding: 0;
+}
+
+* {
+  font-family: "Potta One";
+  color: #fff;
 }
 
 #universe {
@@ -32,11 +39,30 @@ body {
     pointer-events: none;
 }
 
+.main__content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.main__content h1 {
+  font-size: 36px;
+}
+
+.main__content button {
+  height: 80px;
+  width: 150px;
+  text-align: center;
+  background: transparent;
+  border: 3px #5448C8 solid;
+}
+
 @-webkit-keyframes clouds__anim {
   from {
-    background-position:0 0;
+    background-position: 0 0;
   }
   to {
-    background-position:10000px 0;
+    background-position: 10000px 0;
   }
 }
