@@ -48,7 +48,7 @@ body {
 
 .main__content h1 {
   font-size: 36px;
-  line-height: 100%;
+  line-height: 100vh;
 }
 
 .main__content button {
