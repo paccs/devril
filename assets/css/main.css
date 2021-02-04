@@ -27,6 +27,15 @@ body {
     height: 100%;
     display: block;
     background: url("https://paccs.github.io/devril/devril-clouds.png") center top repeat transparent;
-    animation: 200s linear 0s infinite normal none running;
+    animation: 200s linear 0s infinite normal none running clouds__anim;
     pointer-events: none;
+}
+
+@-webkit-keyframes clouds__anim {
+  from {
+    background-position:0 0;
+  }
+  to {
+    background-position:10000px 0;
+  }
 }
