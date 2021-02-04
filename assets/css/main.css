@@ -13,5 +13,5 @@ body {
   width: 100%;
   height: 100%;
   display: block;
-  background: url(..../devril-stars.png) center top repeat rgb(0, 0, 0);
+  background: url(./././devril-stars.png) center top repeat rgb(0, 0, 0);
 }
