@@ -48,6 +48,7 @@ body {
 
 .main__content h1 {
   font-size: 36px;
+  line-height: 100%;
 }
 
 .main__content button {
@@ -58,6 +59,7 @@ body {
   background: transparent;
   border: 3px #5448C8 solid;
   border-radius: 4px;
+  position: relative;
 }
 
 .main__content button:hover {
